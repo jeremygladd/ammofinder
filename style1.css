@@ -1,33 +1,65 @@
-/* CSS for Index (homepage) for Findyourammo.com */
+/* Custom Style Sheet for AmmoFinder Homepage */
 
-
-body, h1 {
-	color: #041748;
-	background-color: #D4991C;
-	background-image: url(spentshells.jpg);
-	background-blend-mode: darken;
-	background-size: cover;
-	text-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
+html, body {
+	font-family: 'Red Rose';
 }
+
 h1 {
-	font-weight: bold;
-	border: 2px black solid;
-	background-blend-mode: overlay;
-	height: 50%;
-	margin: 0px, 10px;
+	font-size: 3rem;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
-.intro_paragraph {
-	background-color: white;
+nav {
+	border: 10px;
+	border-color: black;
+}
+
+.footer {
 	font-style: italic;
-}
-
-.disclaimer {
-	font-size: .5em;
-}
-
-footer {
-	position: fixed;
+	left: 0;
 	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
 }
+
+.main_imgs {
+	display: flex;
+	justify-content: center;
+	padding: 2px;
+}
+
+.handgun_button {
+	object-fit: cover;
+	width: 450px;
+	height: 300px;
+	transition: all .5s;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.handgun_button:hover {
+	transform: scale(1.1);
+}
+
+.rifle_button {
+	object-fit: cover;
+	width: 450px;
+	height: 300px;
+	transition: all .5s;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.rifle_button:hover {
+	transform: scale(1.1);
+}
+
+p {
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
